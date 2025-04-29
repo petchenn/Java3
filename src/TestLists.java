@@ -12,7 +12,7 @@ public class TestLists {
      *
      * @param list параметр для получения типа проверяемого List.
      */
-    private void testList(List<Integer> list){
+    public void testList(List<Integer> list){
 
         testAdd(list);
         testGet(list);
